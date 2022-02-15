@@ -28,7 +28,7 @@ const Header = () => {
         <>
           Carrito items
           <ul>
-            {cartItems.map((item, index) => (<li key={index}>{item.name}</li>))}
+            {cartItems.map((item, index) => (<li key={index}>{item.name} ({item.count})</li>))}
           </ul>
         </>}
     </div>
